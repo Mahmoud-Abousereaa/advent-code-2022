@@ -1,10 +1,5 @@
 import { readFileSync } from 'fs';
 
-// interface Range {
-//   lowerLimit: number;
-//   upperLimit: number;
-// }
-
 function main() {
   const datastream:string = readFileSync('./input.txt', 'utf-8');
   const signal:Array<string> = datastream.split('');
